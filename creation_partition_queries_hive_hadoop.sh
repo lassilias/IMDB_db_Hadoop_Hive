@@ -1,5 +1,8 @@
 -------------------------------------------------------------------TABLE name.basics.tsv.gz --------------------------------------------------------------------
 ####################BASH#############################
+# https://hub.docker.com/r/bde2020/hive/
+# docker cp ratings.tsv hive_hive-server_1:/opt/ratings.tsv
+
 cd data 
 wget https://datasets.imdbws.com/name.basics.tsv.gz
 gzip -d name.basics.tsv.gz
